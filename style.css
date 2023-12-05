@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    font-family:  "Raleway", Arial, Helvetica, sans-serif;;
+}
+
+#zagalovok{
+    font-size: 32px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+#zena{
+    font-size: 23px;
+    opacity: 0.7;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#pp{
+    padding-left: 20px;
+    margin-top: 52px;
+    opacity: 0.7;
+}
+
+#pp2{
+    padding-left: 20px;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+#pp3{
+    width: 220px;
+    height: 40px;
+    opacity: 0.7;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-right: 44px;
+}
+
+#bb{
+    margin-left: 20px;
+     margin-top: 20px;
+      height: 40px;
+       border-color: #ccc;
+        width: 211.2px;
+}
+
+.divl{
+    width: 20%;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: end;
+}
+
+.left-content{
+    width: 18%;
+    height: 100vh;
+    border-left: 1px solid grey ;
+    border-right: 1px solid grey;
+    position: fixed;
+    top: 0;
+    left: 220px;
+    background-color: #f1f1f1;
+    overflow-y: scroll;
+
+}
+
+.right-content{
+    width: 65%;
+    height: 2000px;
+    
+}
+
+button:hover{
+    opacity: 0.7;
+}
